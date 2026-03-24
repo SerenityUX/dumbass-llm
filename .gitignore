@@ -1,0 +1,29 @@
+# Large Wikipedia / pretraining artifacts
+simplewiki.xml
+simplewiki-latest-pages-articles.xml.bz2
+extracted/
+tokens.npy
+
+# Instruction & fine-tuning data (fetched or regenerated locally)
+alpaca_data.json
+city_data.json
+
+# PyTorch checkpoints
+checkpoint.pt
+checkpoint_sft.pt
+checkpoint_sponge.pt
+checkpoint_city.pt
+
+# Python environments & caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+.DS_Store
